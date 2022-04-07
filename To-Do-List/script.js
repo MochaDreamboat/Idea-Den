@@ -23,5 +23,6 @@ task.setAttribute("id", `${objectid}`);
 
 function deleteTask (id) {
 let removedTask = document.getElementById(id);
-tasks.removeChild(removeTask);
+tasks.removeChild(removedTask);
 }
+
