@@ -20,9 +20,7 @@ task.setAttribute("id", `${objectid}`);
 // Event Listener for removing task from DOM.
 // Unique to each task in DOM. Task generator will pass object's id as argument to
 // deleteTask() and will trigger on click.
-
 function deleteTask (id) {
 let removedTask = document.getElementById(id);
 tasks.removeChild(removedTask);
 }
-
